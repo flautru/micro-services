@@ -28,12 +28,19 @@ Chaque service (hors `gateway`, `discovery` et `config`) possède sa propre base
 
 
 ## 🗂️ Structure du projet
+
 micro-services/
+
 ├── config-server/ # Configuration centralisée (Spring Cloud Config)
+
 ├── discovery-service/ # Service Eureka
+
 ├── gateway-service/ # API Gateway (Spring Cloud Gateway)
+
 ├── school-service/ # Microservice École avec BDD PostgreSQL
+
 ├── student-service/ # Microservice Étudiant avec BDD PostgreSQL
+
 └── README.md
 
 
